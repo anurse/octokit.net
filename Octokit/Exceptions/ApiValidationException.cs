@@ -2,7 +2,9 @@
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
+#if !NETFX_CORE
 using System.Runtime.Serialization;
+#endif
 
 namespace Octokit
 {

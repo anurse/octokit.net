@@ -1,0 +1,728 @@
+{
+  "locked": false,
+  "version": -9996,
+  "targets": {
+    ".NETFramework,Version=v4.5": {},
+    ".NETCore,Version=v4.5": {
+      "System.Net.Http/4.0.0-beta-22816": {
+        "dependencies": {
+          "System.IO": "4.0.10-beta-22816",
+          "System.Net.Primitives": "4.0.10-beta-22816",
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Text.Encoding": "4.0.10-beta-22816",
+          "System.Threading.Tasks": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Http.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.0.10-beta-22816": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Runtime.Handles": "4.0.0-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Net.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Handles/4.0.0-beta-22816": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Handles.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Handles.dll": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259": {
+      "System.Net.Http/4.0.0-beta-22816": {
+        "dependencies": {
+          "System.IO": "4.0.10-beta-22816",
+          "System.Net.Primitives": "4.0.10-beta-22816",
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Text.Encoding": "4.0.10-beta-22816",
+          "System.Threading.Tasks": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Http.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.0.10-beta-22816": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Runtime.Handles": "4.0.0-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Net.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Handles/4.0.0-beta-22816": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Handles.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Handles.dll": {}
+        }
+      }
+    },
+    "DNXCore,Version=v5.0": {
+      "System.Collections/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Collections.dll": {}
+        }
+      },
+      "System.Collections.Concurrent/4.0.0-beta-22231": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22231",
+          "System.Threading.Tasks": "4.0.0-beta-22231"
+        },
+        "compile": {
+          "lib/contract/System.Collections.Concurrent.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Collections.Concurrent.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Diagnostics.Debug.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Diagnostics.Debug.dll": {}
+        }
+      },
+      "System.Diagnostics.Tools/4.0.0-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Diagnostics.Tools.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Diagnostics.Tools.dll": {}
+        }
+      },
+      "System.Globalization/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Globalization.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Globalization.dll": {}
+        }
+      },
+      "System.IO/4.0.10-beta-22816": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Text.Encoding": "4.0.10-beta-22816",
+          "System.Threading.Tasks": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.IO.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.IO.dll": {}
+        }
+      },
+      "System.Linq/4.0.0-beta-22913": {
+        "dependencies": {
+          "System.Collections": "4.0.0-beta-22913",
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Linq.dll": {}
+        }
+      },
+      "System.Linq.Expressions/4.0.0-beta-22605": {
+        "dependencies": {
+          "System.Reflection": "4.0.0-beta-22605",
+          "System.Runtime": "4.0.0-beta-22605"
+        },
+        "compile": {
+          "lib/contract/System.Linq.Expressions.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Linq.Expressions.dll": {}
+        }
+      },
+      "System.Net.Http/4.0.0-beta-22816": {
+        "dependencies": {
+          "System.IO": "4.0.10-beta-22816",
+          "System.Net.Primitives": "4.0.10-beta-22816",
+          "System.Runtime": "4.0.20-beta-22816",
+          "System.Text.Encoding": "4.0.10-beta-22816",
+          "System.Threading.Tasks": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Net.Http.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913",
+          "System.Runtime.Handles": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Net.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Net.Primitives.dll": {}
+        }
+      },
+      "System.ObjectModel/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.ObjectModel.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.ObjectModel.dll": {}
+        }
+      },
+      "System.Reflection/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.IO": "4.0.0-beta-22913",
+          "System.Reflection.Primitives": "4.0.0-beta-22913",
+          "System.Runtime": "4.0.20-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Reflection.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Reflection.dll": {}
+        }
+      },
+      "System.Reflection.Extensions/4.0.0-beta-22913": {
+        "dependencies": {
+          "System.Reflection": "4.0.0-beta-22913",
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Reflection.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Reflection.Extensions.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.0.0-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Reflection.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Reflection.Primitives.dll": {}
+        }
+      },
+      "System.Runtime/4.0.20-beta-22913": {
+        "compile": {
+          "lib/contract/System.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Runtime.dll": {}
+        }
+      },
+      "System.Runtime.Extensions/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Runtime.Extensions.dll": {}
+        }
+      },
+      "System.Runtime.Handles/4.0.0-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Handles.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Runtime.Handles.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.0.0-beta-22605": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22605"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Text.Encoding/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Text.Encoding.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Text.Encoding.dll": {}
+        }
+      },
+      "System.Text.RegularExpressions/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Text.RegularExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Text.RegularExpressions.dll": {}
+        }
+      },
+      "System.Threading/4.0.0-beta-22416": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22416",
+          "System.Threading.Tasks": "4.0.0-beta-22416"
+        },
+        "compile": {
+          "lib/contract/System.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.0.10-beta-22913": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-22913"
+        },
+        "compile": {
+          "lib/contract/System.Threading.Tasks.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Threading.Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Collections/4.0.10-beta-22913": {
+      "sha512": "dxY7ghNRLy1Ol6RfYoWKbIN+UFn6M/UjB3QzK+vjqMGdcVcilUfoK+rvCZBPoxo1cASyKH4fsAO+EqYVcSX7jg==",
+      "files": [
+        "License.rtf",
+        "System.Collections.4.0.10-beta-22913.nupkg",
+        "System.Collections.4.0.10-beta-22913.nupkg.sha512",
+        "System.Collections.nuspec",
+        "lib/aspnetcore50/System.Collections.dll",
+        "lib/contract/System.Collections.dll",
+        "lib/net45/System.Collections.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Collections.dll"
+      ]
+    },
+    "System.Collections.Concurrent/4.0.0-beta-22231": {
+      "sha512": "L+Py4/PVWe6YsUnHS3+9zNslI3AmCS8GH21z/VIGjmcfg/JmXU6yD93MoYpSuwFpsWwBAJZHAmF4y3A1DFvwyg==",
+      "files": [
+        "License.rtf",
+        "System.Collections.Concurrent.4.0.0-beta-22231.nupkg",
+        "System.Collections.Concurrent.4.0.0-beta-22231.nupkg.sha512",
+        "System.Collections.Concurrent.nuspec",
+        "lib/aspnetcore50/System.Collections.Concurrent.dll",
+        "lib/contract/System.Collections.Concurrent.dll"
+      ]
+    },
+    "System.Diagnostics.Debug/4.0.10-beta-22913": {
+      "sha512": "nUzFqVxBHKY2tqMnEVu2EqVI+N6EJ7Z6aY/tAiYixBjb6lqffpVKRnMuH9InEK5GPajTSDabAuxgx7xri5J4+A==",
+      "files": [
+        "License.rtf",
+        "System.Diagnostics.Debug.4.0.10-beta-22913.nupkg",
+        "System.Diagnostics.Debug.4.0.10-beta-22913.nupkg.sha512",
+        "System.Diagnostics.Debug.nuspec",
+        "lib/aspnetcore50/System.Diagnostics.Debug.dll",
+        "lib/contract/System.Diagnostics.Debug.dll",
+        "lib/net45/System.Diagnostics.Debug.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Diagnostics.Debug.dll"
+      ]
+    },
+    "System.Diagnostics.Tools/4.0.0-beta-22913": {
+      "sha512": "Fu5GWGfmy0lg3t/xsYZR8FB0O8iDAoGAV03zrTpV8/3wbywqJuZhdBl9a2lTNNojcbjtWrfk7bs509tKfWVCOA==",
+      "files": [
+        "License.rtf",
+        "System.Diagnostics.Tools.4.0.0-beta-22913.nupkg",
+        "System.Diagnostics.Tools.4.0.0-beta-22913.nupkg.sha512",
+        "System.Diagnostics.Tools.nuspec",
+        "lib/aspnetcore50/System.Diagnostics.Tools.dll",
+        "lib/contract/System.Diagnostics.Tools.dll",
+        "lib/net45/System.Diagnostics.Tools.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Diagnostics.Tools.dll"
+      ]
+    },
+    "System.Globalization/4.0.10-beta-22913": {
+      "sha512": "70PT1NB5IN4y/3AT+duC8l72MHjeyHdWQ7RiGH2CA57wDQM6UCm8r0JQv4cxmEpeVMYwYG4r+KYgyMvrghOe1Q==",
+      "files": [
+        "License.rtf",
+        "System.Globalization.4.0.10-beta-22913.nupkg",
+        "System.Globalization.4.0.10-beta-22913.nupkg.sha512",
+        "System.Globalization.nuspec",
+        "lib/aspnetcore50/System.Globalization.dll",
+        "lib/contract/System.Globalization.dll",
+        "lib/net45/System.Globalization.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Globalization.dll"
+      ]
+    },
+    "System.IO/4.0.10-beta-22816": {
+      "sha512": "/wVhoi2uVXw5IZFU+JrPlyVgKrtMPtzQaYQ3DKUxH9nqiX64BChTFGNDcwZK3iNWTIWESxJhj9JR3lbqbG/PIg==",
+      "files": [
+        "License.rtf",
+        "System.IO.4.0.10-beta-22816.nupkg",
+        "System.IO.4.0.10-beta-22816.nupkg.sha512",
+        "System.IO.nuspec",
+        "lib/aspnetcore50/System.IO.dll",
+        "lib/contract/System.IO.dll",
+        "lib/net45/System.IO.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.IO.dll"
+      ]
+    },
+    "System.Linq/4.0.0-beta-22913": {
+      "sha512": "TU3fQhX8rfh4ayWiZILHMEzimsDYLo8A65IWKwR0CKVASAGe0KYG7QwUygqVqlo/SHDBG+Nn0zZSSMPw7aZwzQ==",
+      "files": [
+        "License.rtf",
+        "System.Linq.4.0.0-beta-22913.nupkg",
+        "System.Linq.4.0.0-beta-22913.nupkg.sha512",
+        "System.Linq.nuspec",
+        "lib/aspnetcore50/System.Linq.dll",
+        "lib/contract/System.Linq.dll",
+        "lib/net45/System.Linq.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Linq.dll"
+      ]
+    },
+    "System.Linq.Expressions/4.0.0-beta-22605": {
+      "sha512": "Hs2xNS2Y7IAcHR68d/R3B28799KA9szRbKLeQCj2hVG+iuS1d/4W6ol8K6e5195faR2+dMd0KWnyRabgnDUgrQ==",
+      "files": [
+        "License.rtf",
+        "System.Linq.Expressions.4.0.0-beta-22605.nupkg",
+        "System.Linq.Expressions.4.0.0-beta-22605.nupkg.sha512",
+        "System.Linq.Expressions.nuspec",
+        "lib/aspnetcore50/System.Linq.Expressions.dll",
+        "lib/contract/System.Linq.Expressions.dll",
+        "lib/net45/System.Linq.Expressions.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Linq.Expressions.dll"
+      ]
+    },
+    "System.Net.Http/4.0.0-beta-22816": {
+      "sha512": "zuqm/oV6ouUJSBTKhfjHC5JpzPyQolcJAAZt8Nly9ayetuuGBuDwTQ8YGtx1C4xNOWQOjL0vBVFu6EQT5e3SDA==",
+      "files": [
+        "License.rtf",
+        "System.Net.Http.4.0.0-beta-22816.nupkg",
+        "System.Net.Http.4.0.0-beta-22816.nupkg.sha512",
+        "System.Net.Http.nuspec",
+        "lib/aspnetcore50/System.Net.Http.dll",
+        "lib/contract/System.Net.Http.dll",
+        "lib/net45/_._",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Http.dll"
+      ]
+    },
+    "System.Net.Primitives/4.0.10-beta-22816": {
+      "sha512": "jsLwoWIuMLFqUZmrQcMclxdV3Fm/XlVse0j6graRZbjgrEOPBN7O0Lhfvdrsqsx73xz19+/u/DFN7NQc6X7E+A==",
+      "files": [
+        "License.rtf",
+        "System.Net.Primitives.4.0.10-beta-22816.nupkg",
+        "System.Net.Primitives.4.0.10-beta-22816.nupkg.sha512",
+        "System.Net.Primitives.nuspec",
+        "lib/aspnetcore50/System.Net.Primitives.dll",
+        "lib/contract/System.Net.Primitives.dll",
+        "lib/net45/System.Net.Primitives.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Primitives.dll"
+      ]
+    },
+    "System.Net.Primitives/4.0.10-beta-22913": {
+      "sha512": "gvLV4ziUfj2MOc39pk8/GW/ZnLF/ohmg6DuWHatKYfkQzEnqRe5M+cirWj6Y/U+bYxSOQY7uH7XnAGpu/qJfVQ==",
+      "files": [
+        "License.rtf",
+        "System.Net.Primitives.4.0.10-beta-22913.nupkg",
+        "System.Net.Primitives.4.0.10-beta-22913.nupkg.sha512",
+        "System.Net.Primitives.nuspec",
+        "lib/aspnetcore50/System.Net.Primitives.dll",
+        "lib/contract/System.Net.Primitives.dll",
+        "lib/net45/System.Net.Primitives.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Net.Primitives.dll"
+      ]
+    },
+    "System.ObjectModel/4.0.10-beta-22913": {
+      "sha512": "V9GuIHiA/rJVlXAcQExnePBIH77Q03+g7J6teTP/XNzu1J5rBnEjYMy1vk98axnL3VZoKky+VUexR7wrdLdPHQ==",
+      "files": [
+        "License.rtf",
+        "System.ObjectModel.4.0.10-beta-22913.nupkg",
+        "System.ObjectModel.4.0.10-beta-22913.nupkg.sha512",
+        "System.ObjectModel.nuspec",
+        "lib/aspnetcore50/System.ObjectModel.dll",
+        "lib/contract/System.ObjectModel.dll",
+        "lib/net45/System.ObjectModel.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.ObjectModel.dll"
+      ]
+    },
+    "System.Reflection/4.0.10-beta-22913": {
+      "sha512": "xIniWRM4afCsS8X2sLa8oJA2mD+rvIsVAa66j/ldUUPWCPSKqss6C3OwfPY8pfoDNmjTJ3DW3JL2f+QKwIsMKg==",
+      "files": [
+        "License.rtf",
+        "System.Reflection.4.0.10-beta-22913.nupkg",
+        "System.Reflection.4.0.10-beta-22913.nupkg.sha512",
+        "System.Reflection.nuspec",
+        "lib/aspnetcore50/System.Reflection.dll",
+        "lib/contract/System.Reflection.dll",
+        "lib/net45/System.Reflection.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Reflection.dll"
+      ]
+    },
+    "System.Reflection.Extensions/4.0.0-beta-22913": {
+      "sha512": "cGKZIbX13yVAcVokHzvskFlgGrm7c7FaJdj/QTg+FJ6mnXct+CRL8mXlKONjnokZeXTI4Tychgym93qmVHIFzg==",
+      "files": [
+        "License.rtf",
+        "System.Reflection.Extensions.4.0.0-beta-22913.nupkg",
+        "System.Reflection.Extensions.4.0.0-beta-22913.nupkg.sha512",
+        "System.Reflection.Extensions.nuspec",
+        "lib/aspnetcore50/System.Reflection.Extensions.dll",
+        "lib/contract/System.Reflection.Extensions.dll",
+        "lib/net45/System.Reflection.Extensions.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Reflection.Extensions.dll"
+      ]
+    },
+    "System.Reflection.Primitives/4.0.0-beta-22913": {
+      "sha512": "QLyWA7vaEUIM0lipeYPr6CzRxqOPZgf43RMhvztaoNUhxE8fxru5s3/QXV+fE2IPqWOROA+GejBJj1Ec4RPKmg==",
+      "files": [
+        "License.rtf",
+        "System.Reflection.Primitives.4.0.0-beta-22913.nupkg",
+        "System.Reflection.Primitives.4.0.0-beta-22913.nupkg.sha512",
+        "System.Reflection.Primitives.nuspec",
+        "lib/aspnetcore50/System.Reflection.Primitives.dll",
+        "lib/contract/System.Reflection.Primitives.dll",
+        "lib/net45/System.Reflection.Primitives.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Reflection.Primitives.dll"
+      ]
+    },
+    "System.Runtime/4.0.20-beta-22913": {
+      "sha512": "xPFLEPfTzYa55T1ZdTIuxbJ2F9qWdK/tlUlcLnBskEJK9n+I6IDPlfWfokscXTaZjQxpS6p95L79vRWqphfyAw==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.4.0.20-beta-22913.nupkg",
+        "System.Runtime.4.0.20-beta-22913.nupkg.sha512",
+        "System.Runtime.nuspec",
+        "lib/aspnetcore50/System.Runtime.dll",
+        "lib/contract/System.Runtime.dll",
+        "lib/net45/System.Runtime.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.dll"
+      ]
+    },
+    "System.Runtime.Extensions/4.0.10-beta-22913": {
+      "sha512": "YsS4zMhWgwNqH+V6HZzY5dM2P1AAVLOc8xWbDa4vyRMsA3/rRlwlDIY9t2tm/syXq79UR8blDnjAtvdMGVaAvw==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.Extensions.4.0.10-beta-22913.nupkg",
+        "System.Runtime.Extensions.4.0.10-beta-22913.nupkg.sha512",
+        "System.Runtime.Extensions.nuspec",
+        "lib/aspnetcore50/System.Runtime.Extensions.dll",
+        "lib/contract/System.Runtime.Extensions.dll",
+        "lib/net45/System.Runtime.Extensions.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Extensions.dll"
+      ]
+    },
+    "System.Runtime.Handles/4.0.0-beta-22816": {
+      "sha512": "t0hDCtbwOKLBTcyiXHYRfaVb8pXCFYjGDWjmgyaaqmiXYtfzDlUHQ7NGaKHLOzcp29UunHZyS1CVplJ5ZiQ8Qg==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.Handles.4.0.0-beta-22816.nupkg",
+        "System.Runtime.Handles.4.0.0-beta-22816.nupkg.sha512",
+        "System.Runtime.Handles.nuspec",
+        "lib/aspnetcore50/System.Runtime.Handles.dll",
+        "lib/contract/System.Runtime.Handles.dll",
+        "lib/net45/System.Runtime.Handles.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Handles.dll"
+      ]
+    },
+    "System.Runtime.Handles/4.0.0-beta-22913": {
+      "sha512": "C/nC/9QXBVPKPOjt8+cT7fRyOTJbftB38ozyZ1qGtFY0a6CaQc2/us3TKdvA0h2rbME8KrWR6qOP+1wum1J8HQ==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.Handles.4.0.0-beta-22913.nupkg",
+        "System.Runtime.Handles.4.0.0-beta-22913.nupkg.sha512",
+        "System.Runtime.Handles.nuspec",
+        "lib/aspnetcore50/System.Runtime.Handles.dll",
+        "lib/contract/System.Runtime.Handles.dll",
+        "lib/net45/System.Runtime.Handles.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Handles.dll"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.0.0-beta-22605": {
+      "sha512": "1FaxtKLeaZKVWC12/B2IQ2sKcHwNoPtpkwzWu2ucHZdHUhDPQTSiSvX46oNJpoA80lahZekJnxS6rw+Hy0P+eQ==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.Serialization.Primitives.4.0.0-beta-22605.nupkg",
+        "System.Runtime.Serialization.Primitives.4.0.0-beta-22605.nupkg.sha512",
+        "System.Runtime.Serialization.Primitives.nuspec",
+        "lib/aspnetcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/contract/System.Runtime.Serialization.Primitives.dll",
+        "lib/net45/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Serialization.Primitives.dll"
+      ]
+    },
+    "System.Text.Encoding/4.0.10-beta-22913": {
+      "sha512": "U56nt5fJ+nyvHPa+eK37maVbOsnyL3gVrtBgcpWQV+mSU8pizygz6aJR2NQ9kr/ZJFjqfWPsKu2ywlvwxYoyKw==",
+      "files": [
+        "License.rtf",
+        "System.Text.Encoding.4.0.10-beta-22913.nupkg",
+        "System.Text.Encoding.4.0.10-beta-22913.nupkg.sha512",
+        "System.Text.Encoding.nuspec",
+        "lib/aspnetcore50/System.Text.Encoding.dll",
+        "lib/contract/System.Text.Encoding.dll",
+        "lib/net45/System.Text.Encoding.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Text.Encoding.dll"
+      ]
+    },
+    "System.Text.RegularExpressions/4.0.10-beta-22913": {
+      "sha512": "Ob9mh+/iSx4kifqXnxeomGZo4Xk/UHO0NyPxRyuBzRdnvSpwko2B4Vm/T1zOlVUQ0EEMch5M9TPxaY3lWOuGTQ==",
+      "files": [
+        "License.rtf",
+        "System.Text.RegularExpressions.4.0.10-beta-22913.nupkg",
+        "System.Text.RegularExpressions.4.0.10-beta-22913.nupkg.sha512",
+        "System.Text.RegularExpressions.nuspec",
+        "lib/aspnetcore50/System.Text.RegularExpressions.dll",
+        "lib/contract/System.Text.RegularExpressions.dll",
+        "lib/net45/System.Text.RegularExpressions.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Text.RegularExpressions.dll"
+      ]
+    },
+    "System.Threading/4.0.0-beta-22416": {
+      "sha512": "YP7eQ19PkWzSsfXdyShiiLmyYBVUPf8/tb3jS5ZPCOR6N6xqj0FUWR7T1n7qvjJjMFGcpdXx4ZJgiYfkAiwwWw==",
+      "files": [
+        "License.rtf",
+        "System.Threading.4.0.0-beta-22416.nupkg",
+        "System.Threading.4.0.0-beta-22416.nupkg.sha512",
+        "System.Threading.nuspec",
+        "lib/aspnetcore50/System.Threading.dll",
+        "lib/contract/System.Threading.dll",
+        "lib/net45/System.Threading.dll",
+        "lib/portable-wpa80+win80+net45+aspnetcore50/System.Threading.dll"
+      ]
+    },
+    "System.Threading.Tasks/4.0.10-beta-22913": {
+      "sha512": "ejvdTapi9uR2fFq2Fh/rpPXCoRIZKi/ehb16duhzVsWRtWSZGLhDrLb9rCYKVw7kshjN7r2l0QhgC5vuBRQDOA==",
+      "files": [
+        "License.rtf",
+        "System.Threading.Tasks.4.0.10-beta-22913.nupkg",
+        "System.Threading.Tasks.4.0.10-beta-22913.nupkg.sha512",
+        "System.Threading.Tasks.nuspec",
+        "lib/aspnetcore50/System.Threading.Tasks.dll",
+        "lib/contract/System.Threading.Tasks.dll",
+        "lib/net45/System.Threading.Tasks.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Threading.Tasks.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5": [
+      "framework/System.Net.Http "
+    ],
+    ".NETCore,Version=v4.5": [
+      "System.Net.Http >= 4.0.0-beta-*",
+      "framework/mscorlib ",
+      "framework/System ",
+      "framework/System.Collections ",
+      "framework/System.Collections.Concurrent ",
+      "framework/System.Diagnostics.Debug ",
+      "framework/System.Diagnostics.Tools ",
+      "framework/System.Globalization ",
+      "framework/System.IO ",
+      "framework/System.Linq ",
+      "framework/System.Linq.Expressions ",
+      "framework/System.Net ",
+      "framework/System.ObjectModel ",
+      "framework/System.Reflection ",
+      "framework/System.Reflection.Extensions ",
+      "framework/System.Runtime ",
+      "framework/System.Runtime.Extensions ",
+      "framework/System.Runtime.Serialization.Primitives ",
+      "framework/System.Text.Encoding ",
+      "framework/System.Text.RegularExpressions ",
+      "framework/System.Threading ",
+      "framework/System.Threading.Tasks "
+    ],
+    ".NETPortable,Version=v4.5,Profile=Profile259": [
+      "System.Net.Http >= 4.0.0-beta-*",
+      "framework/mscorlib ",
+      "framework/System ",
+      "framework/System.Collections ",
+      "framework/System.Diagnostics.Debug ",
+      "framework/System.Diagnostics.Tools ",
+      "framework/System.Globalization ",
+      "framework/System.IO ",
+      "framework/System.Linq ",
+      "framework/System.Linq.Expressions ",
+      "framework/System.Net ",
+      "framework/System.ObjectModel ",
+      "framework/System.Reflection ",
+      "framework/System.Reflection.Extensions ",
+      "framework/System.Runtime ",
+      "framework/System.Runtime.Extensions ",
+      "framework/System.Runtime.Serialization.Primitives ",
+      "framework/System.Text.Encoding ",
+      "framework/System.Text.RegularExpressions ",
+      "framework/System.Threading ",
+      "framework/System.Threading.Tasks "
+    ],
+    "DNXCore,Version=v5.0": [
+      "System.Collections >= 4.0.10-beta-*",
+      "System.Collections.Concurrent >= 4.0.0-beta-*",
+      "System.Diagnostics.Debug >= 4.0.10-beta-*",
+      "System.Diagnostics.Tools >= 4.0.0-beta-*",
+      "System.Globalization >= 4.0.10-beta-*",
+      "System.Linq >= 4.0.0-beta-*",
+      "System.Linq.Expressions >= 4.0.0-beta-*",
+      "System.Net.Http >= 4.0.0-beta-*",
+      "System.Net.Primitives >= 4.0.10-beta-*",
+      "System.ObjectModel >= 4.0.10-beta-*",
+      "System.Reflection >= 4.0.10-beta-*",
+      "System.Reflection.Extensions >= 4.0.0-beta-*",
+      "System.Runtime >= 4.0.20-beta-*",
+      "System.Runtime.Serialization.Primitives >= 4.0.0-beta-*",
+      "System.Runtime.Extensions >= 4.0.10-beta-*",
+      "System.Text.Encoding >= 4.0.10-beta-*",
+      "System.Text.RegularExpressions >= 4.0.10-beta-*",
+      "System.Threading >= 4.0.0-beta-*",
+      "System.Threading.Tasks >= 4.0.10-beta-*"
+    ]
+  }
+}
