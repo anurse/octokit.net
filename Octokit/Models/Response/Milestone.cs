@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Globalization;
 
@@ -14,8 +14,9 @@ namespace Octokit
             Number = number;
         }
 
-        public Milestone(string url, string htmlUrl, int number, ItemState state, string title, string description, User creator, int openIssues, int closedIssues, DateTimeOffset createdAt, DateTimeOffset? dueOn, DateTimeOffset? closedAt)
+        public Milestone(long id, string url, string htmlUrl, int number, ItemState state, string title, string description, User creator, int openIssues, int closedIssues, DateTimeOffset createdAt, DateTimeOffset? dueOn, DateTimeOffset? closedAt)
         {
+            Id = id;
             Url = url;
             HtmlUrl = htmlUrl;
             Number = number;
@@ -29,6 +30,8 @@ namespace Octokit
             DueOn = dueOn;
             ClosedAt = closedAt;
         }
+
+        public long Id { get; protected set; }
 
         /// <summary>
         /// The URL for this milestone.
