@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
@@ -46,7 +46,10 @@ namespace Octokit
             Ensure.ArgumentNotNullOrEmptyString(owner, nameof(owner));
             Ensure.ArgumentNotNullOrEmptyString(name, nameof(name));
 
-            return ApiConnection.Get<PullRequest>(ApiUrls.PullRequest(owner, name, number));
+            return ApiConnection.Get<PullRequest>(
+                ApiUrls.PullRequest(owner, name, number),
+                parameters: null,
+                AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>
@@ -57,7 +60,10 @@ namespace Octokit
         /// </remarks>
         public Task<PullRequest> Get(long repositoryId, int number)
         {
-            return ApiConnection.Get<PullRequest>(ApiUrls.PullRequest(repositoryId, number));
+            return ApiConnection.Get<PullRequest>(
+                ApiUrls.PullRequest(repositoryId, number)
+                parameters: null,
+                AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>
@@ -172,7 +178,7 @@ namespace Octokit
             Ensure.ArgumentNotNull(options, nameof(options));
 
             return ApiConnection.GetAll<PullRequest>(ApiUrls.PullRequests(owner, name),
-                request.ToParametersDictionary(), options);
+                request.ToParametersDictionary(), AcceptHeaders.DraftPullRequestsApiPreview, options);
         }
 
         /// <summary>
@@ -190,7 +196,7 @@ namespace Octokit
             Ensure.ArgumentNotNull(options, nameof(options));
 
             return ApiConnection.GetAll<PullRequest>(ApiUrls.PullRequests(repositoryId),
-                request.ToParametersDictionary(), options);
+                request.ToParametersDictionary(), AcceptHeaders.DraftPullRequestsApiPreview, options);
         }
 
         /// <summary>
@@ -206,7 +212,7 @@ namespace Octokit
             Ensure.ArgumentNotNullOrEmptyString(name, nameof(name));
             Ensure.ArgumentNotNull(newPullRequest, nameof(newPullRequest));
 
-            return ApiConnection.Post<PullRequest>(ApiUrls.PullRequests(owner, name), newPullRequest);
+            return ApiConnection.Post<PullRequest>(ApiUrls.PullRequests(owner, name), newPullRequest, AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>
@@ -219,7 +225,7 @@ namespace Octokit
         {
             Ensure.ArgumentNotNull(newPullRequest, nameof(newPullRequest));
 
-            return ApiConnection.Post<PullRequest>(ApiUrls.PullRequests(repositoryId), newPullRequest);
+            return ApiConnection.Post<PullRequest>(ApiUrls.PullRequests(repositoryId), newPullRequest, AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>
@@ -237,7 +243,7 @@ namespace Octokit
             Ensure.ArgumentNotNullOrEmptyString(name, nameof(name));
             Ensure.ArgumentNotNull(pullRequestUpdate, nameof(pullRequestUpdate));
 
-            return ApiConnection.Patch<PullRequest>(ApiUrls.PullRequest(owner, name, number), pullRequestUpdate);
+            return ApiConnection.Patch<PullRequest>(ApiUrls.PullRequest(owner, name, number), pullRequestUpdate, AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>
@@ -252,7 +258,7 @@ namespace Octokit
         {
             Ensure.ArgumentNotNull(pullRequestUpdate, nameof(pullRequestUpdate));
 
-            return ApiConnection.Patch<PullRequest>(ApiUrls.PullRequest(repositoryId, number), pullRequestUpdate);
+            return ApiConnection.Patch<PullRequest>(ApiUrls.PullRequest(repositoryId, number), pullRequestUpdate, AcceptHeaders.DraftPullRequestsApiPreview);
         }
 
         /// <summary>

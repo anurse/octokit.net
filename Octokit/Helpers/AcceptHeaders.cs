@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Octokit
 {
@@ -66,6 +66,8 @@ namespace Octokit
         public const string ChecksApiPreview = "application/vnd.github.antiope-preview+json";
 
         public const string ProtectedBranchesRequiredApprovingApiPreview = "application/vnd.github.luke-cage-preview+json";
+
+        public const string DraftPullRequestsApiPreview = "application/vnd.github.shadow-cat-preview+json";
 
         /// <summary>
         /// Combines multiple preview headers. GitHub API supports Accept header with multiple
